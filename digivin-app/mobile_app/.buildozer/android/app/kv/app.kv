@@ -1,0 +1,53 @@
+<app>:
+    title: MyApp
+    screen_manager: sm
+
+<ScreenManager>:
+    id: sm
+    LoginScreen:
+        name: 'login'
+    MostrarProductosScreen:
+        name: 'mostrar_productos'
+    CarritoScreen:
+        name: 'carrito'
+
+<LoginScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Login'
+            font_size: 32
+        TextInput:
+            id: username
+            hint_text: 'Username'
+        TextInput:
+            id: password
+            hint_text: 'Password'
+            password: True
+        Button:
+            text: 'Login'
+            on_press: app.login(username.text, password.text)
+
+<MostrarProductosScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Productos'
+            font_size: 32
+        ListView:
+            id: product_list
+        Button:
+            text: 'Volver'
+            on_press: app.change_screen('login')
+
+<CarritoScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            text: 'Carrito'
+            font_size: 32
+        ListView:
+            id: cart_items
+        Button:
+            text: 'Volver'
+            on_press: app.change_screen('mostrar_productos')

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DigivinApp</string>
+    <string name="private_version">cf043bf3ab0483aa6c5cde4a7759a5b4ef2ccf38</string>
+    <string name="presplash_color">#000000</string>
+    <string name="urlScheme">kivy</string>
+</resources>

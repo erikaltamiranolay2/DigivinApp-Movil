@@ -1,0 +1,7 @@
+certifi
+chardet
+idna
+kivymd
+python-dotenv
+requests
+urllib3
