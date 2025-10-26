@@ -1,5 +1,5 @@
-cdef extern void android_sound_queue(int, char *, char *, long long, long long)
-cdef extern void android_sound_play(int, char *, char *, long long, long long)
+cdef extern void android_sound_queue(int, char *, char *, int int, int int)
+cdef extern void android_sound_play(int, char *, char *, int int, int int)
 cdef extern void android_sound_stop(int)
 cdef extern void android_sound_seek(int, float)
 cdef extern void android_sound_dequeue(int)

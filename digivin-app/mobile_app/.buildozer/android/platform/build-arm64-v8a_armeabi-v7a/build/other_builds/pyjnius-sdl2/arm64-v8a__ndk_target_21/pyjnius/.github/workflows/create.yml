@@ -40,7 +40,7 @@ jobs:
         if: matrix.os == 'macos-latest' || matrix.os == 'windows-latest' || matrix.os == 'ubuntu-latest'
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: Setup java
         # There's no need to setup java on ubuntu-latest, as build is done into a manylinux
@@ -57,7 +57,7 @@ jobs:
         env:
           CIBW_ARCHS: '${{ matrix.cibw_archs }}'
         run: |
-          python -m pip install cibuildwheel~=2.16.2
+          python -m pip install cibuildwheel~=2.12.3
           python -m cibuildwheel --output-dir dist
 
       - name: Install cibuildwheel & build wheels (Linux, macOS Intel)
@@ -67,7 +67,7 @@ jobs:
         run: |
           source .ci/utils.sh
           ensure_python_version 3.11
-          python -m pip install cibuildwheel~=2.16.2
+          python -m pip install cibuildwheel~=2.12.3
           python -m cibuildwheel --output-dir dist
 
       - name: upload wheels
@@ -87,11 +87,11 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: Build sdist
         run: |
-            pip install -U setuptools Cython
+            pip install -U setuptools
             python setup.py sdist
 
       - name: upload sdist
@@ -109,7 +109,7 @@ jobs:
     strategy:
       matrix:
         os: ['ubuntu-latest', 'macos-latest', 'windows-latest', 'kivy-ubuntu-arm64']
-        python: ['3.7', '3.8', '3.9', '3.10', '3.11', '3.12', 'pypy3.7', 'pypy3.8', 'pypy3.9']
+        python: ['3.7', '3.8', '3.9', '3.10', '3.11', 'pypy3.7', 'pypy3.8', 'pypy3.9']
         include:
           # We may would like to introduce tests also on windows-latest on x86 (win32 wheels)?
           - os: ubuntu-latest
@@ -122,13 +122,13 @@ jobs:
             architecture: 'x64'
           - os: apple-silicon-m1
             architecture: 'aarch64'
-            python: '3.10'
+            python: '3.8.13'
           - os: apple-silicon-m1
             architecture: 'aarch64'
-            python: '3.11'
+            python: '3.9.11'
           - os: apple-silicon-m1
             architecture: 'aarch64'
-            python: '3.12'
+            python: '3.10.3'
     runs-on: ${{ matrix.os }}
     steps:
 
@@ -142,7 +142,7 @@ jobs:
 
       - name: Setup Python (Ubuntu x86_64, macOS Intel, Windows x86_64)
         # Needs to be skipped on our self-hosted runners tagged as 'apple-silicon-m1'
-        if: matrix.os == 'macos-latest' || matrix.os == 'windows-latest' || matrix.os == 'ubuntu-latest' || matrix.os == 'apple-silicon-m1'
+        if: matrix.os == 'macos-latest' || matrix.os == 'windows-latest' || matrix.os == 'ubuntu-latest'
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python }}
@@ -157,6 +157,8 @@ jobs:
       - name: Setup ant on macOS
         if: (matrix.os == 'macos-latest') || (matrix.os == 'apple-silicon-m1')
         run: |
+          source .ci/osx_ci.sh
+          arm64_set_path_and_python_version ${{ matrix.python }}
           brew install ant
 
       - name: Setup ant on Linux
@@ -164,32 +166,48 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y ant
 
-      - name: Build test-classes via ant
+      - name: Build test-classes via ant (macOS x64, macOS Apple Silicon)
+        if: (matrix.os == 'macos-latest') || (matrix.os == 'apple-silicon-m1')
+        run: |
+          source .ci/osx_ci.sh
+          arm64_set_path_and_python_version ${{ matrix.python }}
+          ant all
+
+      - name: Build test-classes via ant (Linux, Windows)
+        if: matrix.os == 'windows-latest' || matrix.os == 'kivy-ubuntu-arm64' || matrix.os == 'ubuntu-latest'
         run: ant all
 
-      - name: Install pyjnius wheel + test prerequisites (Windows, macOS)
-        if: matrix.os == 'windows-latest' || matrix.os == 'macos-latest' || matrix.os == 'apple-silicon-m1'
-        # --find-links=dist --no-index is needed to avoid downloading the pyjnius wheel
-        # from the index. We need to test the wheel we just built.
-        run: |
-          python -m pip install --find-links=dist --no-index pyjnius
-          python -m pip install pyjnius[dev,ci]
+      - name: Install pyjnius wheel + test prerequisites (Windows, macOS x64)
+        if: matrix.os == 'windows-latest' || matrix.os == 'macos-latest'
+        run: python -m pip install --find-links=dist pyjnius[dev,ci]
 
       - name: Install pyjnius wheel + test prerequisites (Linux)
         if: matrix.os == 'ubuntu-latest' || matrix.os == 'kivy-ubuntu-arm64'
-        # --find-links=dist --no-index is needed to avoid downloading the pyjnius wheel
-        # from the index. We need to test the wheel we just built.
         run: |
           source .ci/utils.sh
           ensure_python_version ${{ matrix.python }}
-          python -m pip install --find-links=dist --no-index pyjnius
-          python -m pip install pyjnius[dev,ci]
+          python -m pip install --find-links=dist pyjnius[dev,ci]
 
-      - name: Test wheel (Linux, macOS)
-        if: (matrix.os == 'ubuntu-latest') || (matrix.os == 'kivy-ubuntu-arm64') || (matrix.os == 'macos-latest') || (matrix.os == 'apple-silicon-m1')
+      - name: Install pyjnius wheel + test prerequisites (Apple Silicon M1)
+        if: matrix.os == 'apple-silicon-m1'
+        run: |
+          source .ci/osx_ci.sh
+          arm64_set_path_and_python_version ${{ matrix.python }}
+          python -m pip install --find-links=dist pyjnius[dev,ci]
+
+      - name: Test wheel (Linux, macOS Intel)
+        if: (matrix.os == 'ubuntu-latest') || (matrix.os == 'kivy-ubuntu-arm64') || (matrix.os == 'macos-latest')
         run: |
           source .ci/utils.sh
           ensure_python_version ${{ matrix.python }}
+          cd tests
+          CLASSPATH=../build/test-classes:../build/classes python -m pytest -v
+
+      - name: Test wheel (macOS Apple Silicon)
+        if: matrix.os == 'apple-silicon-m1'
+        run: |
+          source .ci/osx_ci.sh
+          arm64_set_path_and_python_version ${{ matrix.python }}
           cd tests
           CLASSPATH=../build/test-classes:../build/classes python -m pytest -v
 
@@ -251,7 +269,7 @@ jobs:
 
     - name: Publish package
       if: startsWith(github.ref, 'refs/tags/') && endsWith(github.ref, '-test')
-      uses: pypa/gh-action-pypi-publish@release/v1
+      uses: pypa/gh-action-pypi-publish@master
       with:
         user: __token__
         password: ${{ secrets.PYPI_TOKEN_TEST }}
@@ -259,7 +277,7 @@ jobs:
 
     - name: Publish package
       if: startsWith(github.ref, 'refs/tags/') && ! endsWith(github.ref, '-test')
-      uses: pypa/gh-action-pypi-publish@release/v1
+      uses: pypa/gh-action-pypi-publish@master
       with:
         user: __token__
         password: ${{ secrets.PYPI_TOKEN }}

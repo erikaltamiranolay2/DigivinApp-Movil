@@ -33,10 +33,8 @@ def getenv(key):
     return val
 
 
-PYX_FILES = [
-    'jnius.pyx',
-]
-PXI_FILES = [
+FILES = [
+    'jni.pxi',
     'jnius_compat.pxi',
     'jnius_conversion.pxi',
     'jnius_export_class.pxi',
@@ -48,7 +46,7 @@ PXI_FILES = [
     'jnius_nativetypes3.pxi',
     'jnius_proxy.pxi',
     'jnius.pyx',
-    'jnius_utils.pxi'
+    'jnius_utils.pxi',
 ]
 
 EXTRA_LINK_ARGS = []
@@ -61,7 +59,7 @@ if NDKPLATFORM is not None and getenv('LIBLINK'):
 
 # detect platform
 if PLATFORM == 'android':
-    PYX_FILES = [fn[:-3] + 'c' for fn in PYX_FILES]
+    FILES = [fn[:-3] + 'c' for fn in FILES if fn.endswith('pyx')]
 
 JAVA=get_java_setup(PLATFORM)
 
@@ -70,7 +68,7 @@ assert JAVA.is_jdk(), "You need a JDK, we only found a JRE. Try setting JAVA_HOM
 def compile_native_invocation_handler(java):
     '''Find javac and compile NativeInvocationHandler.java.'''
     javac = java.get_javac()
-    source_level = '8'
+    source_level = '1.7'
     try:
         subprocess.check_call([
             javac, '-target', source_level, '-source', source_level,
@@ -87,23 +85,14 @@ compile_native_invocation_handler(JAVA)
 
 # generate the config.pxi
 with open(join(dirname(__file__), 'jnius', 'config.pxi'), 'w') as fd:
-    if PLATFORM == 'android':
-        cython3 = environ.get('ANDROID_PYJNIUS_CYTHON_3', '0') == '1'
-    else:
-        import Cython
-        cython3 = Cython.__version__.startswith('3.')
     fd.write('DEF JNIUS_PLATFORM = {0!r}\n\n'.format(PLATFORM))
-    # record the Cython version, to address #669
-    fd.write(f'DEF JNIUS_CYTHON_3 = {cython3}')
 
 # pop setup.py from included files in the installed package
 SETUP_KWARGS['py_modules'].remove('setup')
 
 ext_modules = [
     Extension(
-        'jnius', 
-        [join('jnius', x) for x in PYX_FILES],
-        depends=[join('jnius', x) for x in PXI_FILES],
+        'jnius', [join('jnius', x) for x in FILES],
         libraries=JAVA.get_libraries(),
         library_dirs=JAVA.get_library_dirs(),
         include_dirs=JAVA.get_include_dirs(),

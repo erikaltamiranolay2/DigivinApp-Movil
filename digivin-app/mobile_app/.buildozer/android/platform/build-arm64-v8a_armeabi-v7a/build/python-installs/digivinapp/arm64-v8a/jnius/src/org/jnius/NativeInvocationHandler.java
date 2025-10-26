@@ -12,11 +12,13 @@ public class NativeInvocationHandler implements InvocationHandler {
 
     public Object invoke(Object proxy, Method method, Object[] args) {
         if ( DEBUG ) {
+            System.out.print("+ java:invoke(<proxy>, ");
             // don't call it, or recursive lookup/proxy will go!
             //System.out.print(proxy);
             //System.out.print(", ");
-            String message = "+ java:invoke(<proxy>, " + method + ", " + args;
-            System.out.print(message);
+            System.out.print(method);
+            System.out.print(", ");
+            System.out.print(args);
             System.out.println(")");
             System.out.flush();
         }

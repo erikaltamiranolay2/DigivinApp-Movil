@@ -12,7 +12,7 @@ source.include_exts = py,kv,png,jpg
 source.exclude_dirs = database, digivin-app/backend
 version = 0.1
 # Eliminar pyjnius y cython aquí si no los necesitas en la app móvil
-requirements = python3,kivy,kivymd,requests,python-dotenv
+requirements = python3,kivy,pyjnius==1.5.0,cython<3
 android.permissions = INTERNET
 orientation = portrait
 fullscreen = 0

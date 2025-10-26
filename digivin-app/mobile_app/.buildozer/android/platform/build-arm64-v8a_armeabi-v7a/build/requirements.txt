@@ -1,7 +1,6 @@
 certifi
 chardet
+cython<3
 idna
-kivymd
-python-dotenv
 requests
 urllib3
