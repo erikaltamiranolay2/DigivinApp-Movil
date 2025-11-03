@@ -1,0 +1,66 @@
+#:kivy 2.3.0
+
+<App>:
+    title: "MyApp"
+    screen_manager: sm
+
+<ScreenManager>:
+    id: sm
+    LoginScreen:
+        name: "login"
+    MostrarProductosScreen:
+        name: "mostrar_productos"
+    CarritoScreen:
+        name: "carrito"
+
+
+<MostrarProductosScreen>:
+    BoxLayout:
+        orientation: "vertical"
+        spacing: 10
+        padding: 20
+
+        Label:
+            text: "Productos"
+            font_size: 32
+
+        # 🔄 Reemplazamos ListView por RecycleView
+        RecycleView:
+            id: product_list
+            viewclass: "Label"
+            RecycleBoxLayout:
+                default_size: None, dp(56)
+                default_size_hint: 1, None
+                size_hint_y: None
+                height: self.minimum_height
+                orientation: "vertical"
+
+        Button:
+            text: "Volver"
+            on_press: app.change_screen("login")
+
+
+<CarritoScreen>:
+    BoxLayout:
+        orientation: "vertical"
+        spacing: 10
+        padding: 20
+
+        Label:
+            text: "Carrito"
+            font_size: 32
+
+        # 🔄 También reemplazamos ListView aquí
+        RecycleView:
+            id: cart_items
+            viewclass: "Label"
+            RecycleBoxLayout:
+                default_size: None, dp(56)
+                default_size_hint: 1, None
+                size_hint_y: None
+                height: self.minimum_height
+                orientation: "vertical"
+
+        Button:
+            text: "Volver"
+            on_press: app.change_screen("mostrar_productos")

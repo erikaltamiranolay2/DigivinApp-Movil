@@ -1,0 +1,251 @@
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/obj/local/arm64-v8a/objs-debug/harfbuzz/src/hb-ft.o: \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ft.cc \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-config.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/config.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/config_sdl_unix.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-blob.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-common.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-buffer.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-unicode.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-font.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-face.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-set.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-draw.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-deprecated.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-map.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-shape.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-shape-plan.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-style.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-version.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-color.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-name.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-deprecated.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-font.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-layout.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-math.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-meta.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-metrics.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-shape.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-var.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-aat.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-aat-layout.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-meta.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-mutex.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-number.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-atomic.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-null.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-algs.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-iter.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-debug.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-array.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-vector.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-object.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ft.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/ft2build.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/ftheader.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/freetype.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/ftconfig.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/ftoption.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/ftstdlib.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/integer-types.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/public-macros.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/mac-support.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/fttypes.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/ftsystem.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/ftimage.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/fterrors.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/ftmoderr.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/fterrdef.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-font.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-face.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-shaper.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-machinery.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-blob.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-dispatch.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-sanitize.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-serialize.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-map.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-pool.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-shaper-list.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-shape-plan.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-shape.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-map.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-buffer.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-unicode.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-aat-map.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-face.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-face-table-list.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-cache.hh \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/ftadvanc.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/ftmm.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/t1tables.h \
+  /workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/tttables.h
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-config.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/config.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/config_sdl_unix.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-blob.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-common.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-buffer.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-unicode.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-font.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-face.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-set.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-draw.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-deprecated.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-map.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-shape.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-shape-plan.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-style.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-version.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-color.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-name.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-deprecated.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-font.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-layout.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-math.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-meta.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-metrics.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-shape.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-var.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-aat.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-aat-layout.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-meta.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-mutex.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-number.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-atomic.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-null.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-algs.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-iter.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-debug.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-array.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-vector.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-object.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ft.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/ft2build.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/ftheader.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/freetype.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/ftconfig.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/ftoption.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/ftstdlib.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/integer-types.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/public-macros.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/config/mac-support.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/fttypes.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/ftsystem.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/ftimage.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/fterrors.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/ftmoderr.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/fterrdef.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-font.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-face.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-shaper.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-machinery.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-blob.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-dispatch.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-sanitize.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-serialize.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-map.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-pool.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-shaper-list.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-shape-plan.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-shape.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-map.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-buffer.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-unicode.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-aat-map.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-face.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-ot-face-table-list.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/src/hb-cache.hh:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/ftadvanc.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/ftmm.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/t1tables.h:
+
+/workspaces/DigivinApp-Movil/digivin-app/mobile_app/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/harfbuzz/../freetype/include/freetype/tttables.h:

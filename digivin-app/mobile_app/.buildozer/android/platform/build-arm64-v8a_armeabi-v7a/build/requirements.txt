@@ -1,0 +1,6 @@
+certifi
+chardet
+cython<3
+idna
+requests
+urllib3
