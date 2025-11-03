@@ -1,53 +1,66 @@
-<app>:
-    title: MyApp
+#:kivy 2.3.0
+
+<App>:
+    title: "MyApp"
     screen_manager: sm
 
 <ScreenManager>:
     id: sm
     LoginScreen:
-        name: 'login'
+        name: "login"
     MostrarProductosScreen:
-        name: 'mostrar_productos'
+        name: "mostrar_productos"
     CarritoScreen:
-        name: 'carrito'
+        name: "carrito"
 
-<LoginScreen>:
-    BoxLayout:
-        orientation: 'vertical'
-        Label:
-            text: 'Login'
-            font_size: 32
-        TextInput:
-            id: username
-            hint_text: 'Username'
-        TextInput:
-            id: password
-            hint_text: 'Password'
-            password: True
-        Button:
-            text: 'Login'
-            on_press: app.login(username.text, password.text)
 
 <MostrarProductosScreen>:
     BoxLayout:
-        orientation: 'vertical'
+        orientation: "vertical"
+        spacing: 10
+        padding: 20
+
         Label:
-            text: 'Productos'
+            text: "Productos"
             font_size: 32
-        ListView:
+
+        # 🔄 Reemplazamos ListView por RecycleView
+        RecycleView:
             id: product_list
+            viewclass: "Label"
+            RecycleBoxLayout:
+                default_size: None, dp(56)
+                default_size_hint: 1, None
+                size_hint_y: None
+                height: self.minimum_height
+                orientation: "vertical"
+
         Button:
-            text: 'Volver'
-            on_press: app.change_screen('login')
+            text: "Volver"
+            on_press: app.change_screen("login")
+
 
 <CarritoScreen>:
     BoxLayout:
-        orientation: 'vertical'
+        orientation: "vertical"
+        spacing: 10
+        padding: 20
+
         Label:
-            text: 'Carrito'
+            text: "Carrito"
             font_size: 32
-        ListView:
+
+        # 🔄 También reemplazamos ListView aquí
+        RecycleView:
             id: cart_items
+            viewclass: "Label"
+            RecycleBoxLayout:
+                default_size: None, dp(56)
+                default_size_hint: 1, None
+                size_hint_y: None
+                height: self.minimum_height
+                orientation: "vertical"
+
         Button:
-            text: 'Volver'
-            on_press: app.change_screen('mostrar_productos')
+            text: "Volver"
+            on_press: app.change_screen("mostrar_productos")
