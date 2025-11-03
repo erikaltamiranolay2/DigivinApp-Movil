@@ -1,4 +1,4 @@
-#!/workspaces/DigivinApp-Movil/digivin-app/mobile_app/venv/bin/python3.11
+#!/workspaces/DigivinApp-Movil/digivin-app/mobile_app/venv/bin/python3
 import sys
 from Cython.Debugger.Cygdb import main
 if __name__ == '__main__':
